@@ -1,0 +1,5 @@
+/* FlexGrid styles are not emitted by default, the feature flag must be turned on */
+
+@use "@carbon/react" with (
+  $use-flexbox-grid: true
+);

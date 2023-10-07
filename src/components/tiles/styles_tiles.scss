@@ -1,0 +1,7 @@
+@use "@carbon/react/scss/feature-flags" with (
+  $feature-flags: (
+    "enable-experimental-tile-contrast": true,
+  )
+);
+
+@include feature-flags.enable("enable-experimental-tile-contrast");
